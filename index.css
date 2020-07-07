@@ -1,6 +1,9 @@
 #root {
-  border: 2px dashed red;
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
+  font-family: Verdana;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 10% 20% 10% 10%;
+  grid-gap: 10;
 }
